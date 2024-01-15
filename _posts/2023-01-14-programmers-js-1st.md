@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "[Programmers/JS] 편지"
+categories: Programmers
+tags: [Programmers, Javascript]
 ---
 
 ### 풀이
