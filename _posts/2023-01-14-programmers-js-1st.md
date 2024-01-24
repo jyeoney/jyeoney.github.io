@@ -3,6 +3,9 @@ layout: single
 title:  "[Programmers/JS] 편지"
 categories: Programmers
 tags: [Programmers, Javascript]
+author_profile: false
+sidebar:
+    nav: "docs"
 ---
 
 ### 풀이
