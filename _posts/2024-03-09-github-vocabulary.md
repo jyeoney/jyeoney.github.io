@@ -26,6 +26,6 @@ sidebar:
 * add:  Working Directory에서 Staging Area로 등록하는 것
 * Push: Local Repository에서 변경된 파일들을 Remote Repository로 등록하는 것
 * Pull: Remote Repository 파일들을 Working Directory로 가져오는 것
-* Fetch: Remote 저장소의 변경된 파일들을 Local Repository로 전달하는 것
+* Fetch: Remote 저장소의 변경된 파일을 Local Repository로 전달하는 것
 * Merge: Local 저장소의 변경사항을 Working Directory로 전달하는 것
 * Checkout: 사용할 다른 브랜치를 지정
