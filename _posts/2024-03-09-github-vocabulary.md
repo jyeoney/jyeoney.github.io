@@ -24,7 +24,7 @@ sidebar:
 * origin: Remote 저장소에 있는 코드
 * head: 작업하고 있는 local 브랜치
 * add:  Working Directory에서 Staging Area로 등록하는 것
-* Push: Local Repository에서 변경된 파일들을 Remote Repository로 등록하는 것
+* Push: Local Repository에서 변경된 파일을 Remote Repository로 등록하는 것
 * Pull: Remote Repository 파일들을 Working Directory로 가져오는 것
 * Fetch: Remote 저장소의 변경된 파일을 Local Repository로 전달하는 것
 * Merge: Local 저장소의 변경사항을 Working Directory로 전달하는 것
