@@ -29,4 +29,3 @@ sidebar:
 * Fetch: Remote 저장소의 변경된 파일을 Local Repository로 전달하는 것
 * Merge: Local 저장소의 변경사항을 Working Directory로 전달하는 것
 * Checkout: 사용할 다른 브랜치를 지정
-* test: origin
