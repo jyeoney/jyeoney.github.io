@@ -2,7 +2,7 @@
 layout: single
 title:  "Front-end vs. Back-end"
 categories: FRONTEND
-tags: [FRONTEND, BACKEND]
+tags: [FRONTEND, BACKEND, Zerobase]
 toc: true
 author_profile: false
 sidebar:
