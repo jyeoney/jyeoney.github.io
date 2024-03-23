@@ -3,12 +3,12 @@ layout: single
 title:  "[HTML] HTML5 시맨틱 태그 & 웹 표준"
 categories: HTML
 tags: [HTML, Zerobase]
+toc: true
 author_profile: false
 sidebar:
     nav: "docs"
 ---
 
-# HTML5 시맨틱 태그 & 웹 표준
 
 ## HTML5 시맨틱 태그
 ### 시맨틱 태그란?
@@ -19,8 +19,7 @@ sidebar:
 - 웹 접근성 향상
 - SEO(검색 엔진 최적화, Search Engine Optimization)에 도움을 줌
 - 코드의 가독성 향상
-<br>
----
+
 
 ## 웹 표준
 ### 웹 표준이란?
