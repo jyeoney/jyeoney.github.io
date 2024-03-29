@@ -2,7 +2,7 @@
 layout: single
 title:  "[Zerobase] HTML/CSS 회고"
 categories: [Zerobase]
-tags: [Zerobase, HTML, CSS, 프론트엔드스쿨]
+tags: [Zerobase, HTML, CSS, 제로베이스, 프론트엔드스쿨]
 toc: true
 author_profile: false
 sidebar:
