@@ -2,7 +2,7 @@
 layout: single
 title:  "내가 가고 싶은 회사"
 categories: Zerobase
-tags: [Frontend, Zerobase]
+tags: [FRONTEND, Zerobase]
 toc: true
 author_profile: false
 sidebar:
