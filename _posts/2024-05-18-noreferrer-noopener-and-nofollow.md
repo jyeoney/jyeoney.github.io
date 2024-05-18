@@ -11,8 +11,10 @@ sidebar:
 
 HTML의 a 태그는 링크를 만드는 데 주로 사용되며, rel 속성으로 noreferrer, noopener, nofollow를 사용한다.
 
-```HTML
-<a href="링크할 페이지 주소" target="_blank" rel="noreferrer noopener nofollow">새 페이지의 링크</a>
+```html
+<a href="링크할 페이지 주소" target="_blank" rel="noreferrer noopener nofollow">
+    새 페이지의 링크
+    </a>
 ```
 target=”_blank” 속성을 사용하면 새 탭에서 페이지를 열 수 있음
 
