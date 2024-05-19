@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 ---
 
-HTML의 a 태그는 링크를 만드는 데 주로 사용되며, rel 속성으로 noreferrer, noopener, nofollow를 사용한다.
+HTML의 a 태그는 링크를 만드는 데 주로 사용되며, rel 속성으로 noreferrer, noopener, nofollow를 사용함
 
 ```html
 <a href="링크할 페이지 주소" target="_blank" rel="noreferrer noopener nofollow">
