@@ -2,7 +2,7 @@
 layout: single
 title:  "[Zerobase] 1개월차 회고"
 categories: [Zerobase]
-tags: [Zerobase, 제로베이스]
+tags: [Zerobase]
 toc: true
 author_profile: false
 sidebar:
