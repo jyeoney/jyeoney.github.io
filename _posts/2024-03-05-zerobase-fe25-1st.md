@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[제로베이스 프론트엔드스쿨 25기] 수강을 시작하며"
+title:  "[Zerobase/FE25기] 수강을 시작하며"
 categories: Zerobase
 tags: [Zerobase]
 toc: true
