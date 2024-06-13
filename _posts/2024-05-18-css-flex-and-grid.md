@@ -50,6 +50,7 @@ sidebar:
     | display | 그리드 컨테이너를 정의 |
     | grid-template-rows | 각 행의 크기를 정의 |
     | grid-template-columns | 각 열의 크기를 정의 |
+    | grid-template-areas | 그리드 영역을의 이름을 참조하여 그리드 템플릿 설정 |
     | grid-template | grid-template-xxx의 단축 속성 |
     | row-gap | 행과 행 사이의 간격을 정의 |
     | column-gap | 열과 열 사이의 간격을 정의 |
