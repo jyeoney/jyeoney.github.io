@@ -50,7 +50,7 @@ sidebar:
     | display | 그리드 컨테이너를 정의 |
     | grid-template-rows | 각 행의 크기를 정의 |
     | grid-template-columns | 각 열의 크기를 정의 |
-    | grid-template-areas | 그리드 영역을의 이름을 참조하여 그리드 템플릿 설정 |
+    | grid-template-areas | 그리드 영역의 이름을 참조하여 그리드 템플릿 설정 |
     | grid-template | grid-template-xxx의 단축 속성 |
     | row-gap | 행과 행 사이의 간격을 정의 |
     | column-gap | 열과 열 사이의 간격을 정의 |
@@ -76,7 +76,7 @@ sidebar:
     | grid-column-start | 그리드 아이템의 열 시작 위치 지정 |
     | grid-column-end | 그리드 아이템의 열 끝 위치 지정 |
     | grid-column | grid-column-xxx의 단축 속성(열 시작/끝 위치) |
-    | grid-area | 영역 이름을 설정하거나, grid-row와 grid-column의 단축 속성 |
+    | grid-area | 영역 이름 설정 & grid-row와 grid-column의 단축 속성 |
     | align-self | 단일 그리드 아이템을 수직(열 축) 정렬 |
     | justify-self | 단일 그리드 아이템을 수평(행 축) 정렬 |
     | place-self | align-self와 justify-self의 단축 속성 |
