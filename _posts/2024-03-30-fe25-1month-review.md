@@ -5,6 +5,7 @@ categories: [Zerobase]
 tags: [Zerobase]
 toc: true
 author_profile: false
+published: false
 sidebar:
     nav: "docs"
 ---
