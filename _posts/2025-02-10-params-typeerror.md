@@ -52,37 +52,31 @@ Next.js 최신 버전에서는 params가 비동기적으로 처리된다.
 1.  TypeScript가 params를 올바르게 인식하도록 PageProps 타입에서 params를 `Promise`로 감싸기
     - Next.js에서 params가 비동기적으로 제공될 경우, TypeScript가 이를 정확히 이해하려면 params의 타입을 Promise<>로 감싸야 한다!
 2.  그 후 비동기 함수 내에서 `await`을 사용해 params 값에 접근하기
-    - await을 사용하면 Promise가 "완전히 해결될 때까지" 기다렸다가 실제 값을 가져올 수 있다!
+    - await을 사용하면 Promise가 **완전히 해결될 때까지** 기다렸다가 실제 값을 가져올 수 있다!
 
 <br>
 이렇게 타입을 비동기 방식으로 맞춰줌으로써 TypeScript가 올바르게 추론할 수 있게 되므로 정상적으로 실행될 것이다!
+
 ```typescript
 import ChatRoom from '@/app/chat/components/ChatRoom';
 
-// PageProps 정의에서 params를 Promise로 래핑
-type PageProps = {
-params: Promise<{
-chatRoomId: string;
-studyId: string;
-}>;
+type ChatPageProps = {
+  params: Promise<{
+    chatRoomId: string;
+  }>;
 };
 
-const ChatPage = async ({
-params,
-}: PageProps) => {
-const { chatRoomId, studyId } = await params; // Promise를 await 처리
+const ChatPage = async ({ params }: ChatPageProps) => {
+  const { chatRoomId } = await params;
 
-return (
-<div className="p-4 space-y-4">
-<div className="mt-4">
-<ChatRoom chatRoomId={chatRoomId} />
-</div>
-</div>
-);
+  return (
+    <div className="p-4 space-y-4">
+      <div className="mt-4">
+        <ChatRoom chatRoomId={chatRoomId} />
+      </div>
+    </div>
+  );
 };
 
 export default ChatPage;
-
-```
-
 ```
