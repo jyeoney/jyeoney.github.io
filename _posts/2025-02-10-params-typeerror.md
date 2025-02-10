@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Next.js params 타입 에러 해결기.md"
+title: "Next.js params 타입 에러 해결기"
 categories: FRONTEND
 tags: [FRONTEND, Next.js, TypeScript]
 toc: true
